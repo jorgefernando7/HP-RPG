@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Escolha o Sistema - HP RPG</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <h1>HP RPG</h1>
+
+    <h2>Escolha o sistema</h2>
+
+    <p>Qual sistema você deseja utilizar para criar seu personagem?</p>
+
+    <a href="{{ url_for('criar_ordem') }}">
+        <button class="botao">Ordem Paranormal 1.1</button>
+    </a>
+
+    <a href="{{ url_for('criar_2d6') }}">
+        <button class="botao">A Maldição em Navori - BETA</button>
+    </a>
+
+</body>
+
+</html>

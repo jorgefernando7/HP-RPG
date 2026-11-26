@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>HP RPG - Personagens</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <h1>HP-RPG</h1>
+    <h2>Apresente suas ideias!</h2>
+</body>
+
+<body>
+   <a href="{{ url_for('escolher_sistema') }}">
+    <button class="botao">Criar personagem</button>
+   </a>
+   <br>
+   <br>
+   <a href="{{ url_for('meus_personagens') }}">
+    <button class="botao">Meus personagens</button>
+   </a>
+</body>

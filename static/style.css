@@ -1,0 +1,58 @@
+h1 {color: rgb(20, 63, 20);
+    font-family: 'Cinzel', serif;
+    text-align: center; }
+
+body { background-color: #9a7138;
+    color: #173d24;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    }
+    
+form {
+    text-align: center;
+}
+
+.campo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.campo label {
+    width: 120px;
+    text-align: right;
+    margin-right: 15px;
+}
+
+.campo input {
+    width: 150px;
+    padding: 10px;
+}
+
+.botao {
+    width: 180px;
+    background-color: #8f6230;
+    color: #123d24;
+
+    border: 4px solid #173d24;
+    border-radius: 6px;
+
+    padding: 14px 30px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.botao:hover {
+    background-color: #b28a4a;
+    color: #1c1c1c;
+}
+
+.botao:active {
+    transform: scale(0.95);
+}
