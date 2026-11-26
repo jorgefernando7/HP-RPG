@@ -74,7 +74,7 @@ Atleta
 
 Operário
 
-📁 Estrutura do projeto
+Estrutura do projeto
 
 HP-RPG/
 │
